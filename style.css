@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+header {
+    background-color: #13306b;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+}
+nav a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+nav a:hover, nav a.active-link {
+    background-color: #ddd;
+    color: black;
+}
+.container {
+    padding: 20px;
+}
+section {
+    display: none;
+}
+section.active {
+    display: block;
+}
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #13306b;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+.box {
+    background: white;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.responsive-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+blockquote {
+    font-style: italic;
+    color: #555;
+    margin: 0 0 20px;
+}
+blockquote cite {
+    display: block;
+    text-align: right;
+    color: #999;
+    font-style: normal;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+form label {
+    margin: 10px 0 5px;
+}
+form input[type="text"], form input[type="email"], form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+form input[type="submit"] {
+    background-color: #13306b;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+form input[type="submit"]:hover {
+    background-color: #444;
+}
